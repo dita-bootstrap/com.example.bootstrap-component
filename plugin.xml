@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.example.bootstrap-component">
+  <!-- Following the pattern of the base/extension plugins: 
+       point to a central xhtml.xsl hub which includes other components -->
+  <feature
+    extension="dita.xsl.html5-bootstrap"
+    value="xsl/xhtml.xsl"
+    type="file"
+  />
+  <feature extension="dita.specialization.catalog.relative" file="catalog.xml"/>
+</plugin>

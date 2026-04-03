@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MODULE: DITA Bootstrap Custom Domain Entities -->
+
+<!ENTITY % callout "callout">
+
+<!ENTITY % bootstrapCustom-d-section "callout">
+
+<!ENTITY bootstrapCustom-d-att "(topic bootstrapCustom-d)">

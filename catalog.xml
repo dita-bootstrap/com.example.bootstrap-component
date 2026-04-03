@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <!-- DTD file name mappings -->
+  <public publicId="-//Example//DTD DITA Bootstrap Custom Topic//EN" uri="dtd/base/bootstrap-custom-topic.dtd"/>
+  <public publicId="//Example//ENTITIES DITA Bootstrap Custom Domain//EN" uri="dtd/base/bootstrapCustomDomain.ent"/>
+  <public publicId="//Example//ELEMENTS DITA Bootstrap Custom Domain//EN" uri="dtd/base/bootstrapCustomDomain.mod"/>
+  
+  <system systemId="bootstrap-custom-topic.dtd" uri="dtd/base/bootstrap-custom-topic.dtd"/>
+  <system systemId="bootstrapCustomDomain.ent" uri="dtd/base/bootstrapCustomDomain.ent"/>
+  <system systemId="bootstrapCustomDomain.mod" uri="dtd/base/bootstrapCustomDomain.mod"/>
+</catalog>

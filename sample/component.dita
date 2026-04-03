@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//Example//DTD DITA Bootstrap Custom Topic//EN" "../dtd/base/bootstrap-custom-topic.dtd">
+<topic id="component">
+  <title>Bootstrap Callout Component Test</title>
+  <shortdesc>Testing the new <codeph>callout</codeph> specialized element in DITA-Bootstrap.</shortdesc>
+  <body>
+    <section>
+      <title>Default Section</title>
+      <p>This is a standard DITA section for comparison.</p>
+    </section>
+    
+    <callout color="primary" rounded="yes">
+      <title>Primary Callout</title>
+      <p>Example text to show it in action.</p>
+    </callout>
+
+    <callout color="danger">
+      <title>Danger Callout</title>
+      <p>Example text to show it in action.</p>
+    </callout>
+
+    <callout color="success">
+      <title>Success Callout</title>
+      <p>Example text to show it in action.</p>
+    </callout>
+  </body>
+</topic>
