@@ -5,7 +5,11 @@
   <public publicId="//Example//ENTITIES DITA Bootstrap Custom Domain//EN" uri="base/bootstrapCustomDomain.ent"/>
   <public publicId="//Example//ELEMENTS DITA Bootstrap Custom Domain//EN" uri="base/bootstrapCustomDomain.mod"/>
   
+  <!-- Explicitly chain the core catalog if global resolution fails -->
+  <nextCatalog catalog="plugin:com.dita-bootstrap.specialization:dtd/catalog.xml"/>
+
   <!-- Core Mappings using plugin: URIs -->
+
   <public publicId="-//Infotexture//ENTITIES DITA Bootstrap Domain//EN" uri="plugin:com.dita-bootstrap.specialization/dtd/base/bootstrapDomain.ent"/>
   <public publicId="-//Infotexture//ELEMENTS DITA Bootstrap Domain//EN" uri="plugin:com.dita-bootstrap.specialization/dtd/base/bootstrapDomain.mod"/>
   <public publicId="-//Infotexture//ELEMENTS DITA Bootstrap Common Overrides//EN" uri="plugin:com.dita-bootstrap.specialization/dtd/base/commonElements.mod"/>
