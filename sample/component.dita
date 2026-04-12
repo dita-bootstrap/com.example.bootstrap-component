@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//Example//DTD DITA Bootstrap Custom Topic//EN" "../dtd/base/bootstrap-custom-topic.dtd">
+<!DOCTYPE topic PUBLIC "-//Example//DTD DITA Bootstrap Custom Topic//EN" "bootstrap-custom-topic.dtd">
+
 <topic id="component">
   <title>Bootstrap Callout Component Test</title>
   <shortdesc>Testing the new <codeph>callout</codeph> specialized element in DITA-Bootstrap.</shortdesc>
