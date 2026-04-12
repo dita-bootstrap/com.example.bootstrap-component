@@ -18,8 +18,9 @@
   <system systemId="bootstrapCustomDomain.ent" uri="base/bootstrapCustomDomain.ent"/>
   <system systemId="bootstrapCustomDomain.mod" uri="base/bootstrapCustomDomain.mod"/>
 
-  <!-- Core System mappings -->
-  <system systemId="bootstrapDomain.ent" uri="plugin:com.dita-bootstrap.specialization/dtd/base/bootstrapDomain.ent"/>
-  <system systemId="bootstrapDomain.mod" uri="plugin:com.dita-bootstrap.specialization/dtd/base/bootstrapDomain.mod"/>
-  <system systemId="commonElements.mod" uri="plugin:com.dita-bootstrap.specialization/dtd/base/commonElements.mod"/>
+  <!-- Core System mappings using Suffix-matching (most robust for CI) -->
+  <systemSuffix systemIdSuffix="bootstrapDomain.ent" uri="plugin:com.dita-bootstrap.specialization/dtd/base/bootstrapDomain.ent"/>
+  <systemSuffix systemIdSuffix="bootstrapDomain.mod" uri="plugin:com.dita-bootstrap.specialization/dtd/base/bootstrapDomain.mod"/>
+  <systemSuffix systemIdSuffix="commonElements.mod" uri="plugin:com.dita-bootstrap.specialization/dtd/base/commonElements.mod"/>
 </catalog>
+
