@@ -19,5 +19,6 @@ jobs:
         with:
           plugins: |
             https://github.com/dita-bootstrap/dita-bootstrap.specialization/archive/master.zip
+            fox.jason.extend.css
             https://github.com/infotexture/dita-bootstrap/archive/develop.zip
           project: .github/dita-ot/html.xml
