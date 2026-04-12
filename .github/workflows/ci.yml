@@ -23,10 +23,9 @@ jobs:
             curl -L https://raw.githubusercontent.com/dita-bootstrap/dita-bootstrap.specialization/master/dtd/base/bootstrapDomain.mod -o dtd/base/bootstrapDomain.mod
             curl -L https://raw.githubusercontent.com/dita-bootstrap/dita-bootstrap.specialization/master/dtd/base/commonElements.mod -o dtd/base/commonElements.mod
           plugins: |
-            .
             fox.jason.extend.css
             https://github.com/infotexture/dita-bootstrap/archive/develop.zip
             https://github.com/dita-bootstrap/dita-bootstrap.specialization/archive/develop.zip
+            https://github.com/dita-bootstrap/com.example.bootstrap-component/archive/master.zip
           project: .github/dita-ot/html.xml
-
 
