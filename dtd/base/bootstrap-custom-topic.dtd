@@ -17,7 +17,7 @@
 <!ENTITY % xml-d-dec PUBLIC "-//OASIS//ENTITIES DITA 1.3 XML Domain//EN" "xmlDomain.ent">%xml-d-dec;
 
 <!-- Bootstrap and Custom Callout entities -->
-<!ENTITY % bootstrap-d-dec PUBLIC "-//Infotexture//ENTITIES DITA Bootstrap Domain//EN" "bootstrapDomain.ent">%bootstrap-d-dec;
+<!ENTITY % bootstrap-d-dec PUBLIC "-//DITA Bootstrap//ENTITIES DITA Bootstrap Domain//EN" "bootstrapDomain.ent">%bootstrap-d-dec;
 <!ENTITY % bootstrapCustom-d-dec PUBLIC "//Example//ENTITIES DITA Bootstrap Custom Domain//EN" "bootstrapCustomDomain.ent">%bootstrapCustom-d-dec;
 
 <!-- 3. DOMAIN ATTRIBUTES DECLARATIONS -->
@@ -44,7 +44,7 @@
 <!ENTITY % topic-mod-def PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Topic//EN" "topic.mod">%topic-mod-def;
 
 <!-- 7. DOMAIN ELEMENT INTEGRATION -->
-<!ENTITY % bootstrap-d-def PUBLIC "-//Infotexture//ELEMENTS DITA Bootstrap Domain//EN" "bootstrapDomain.mod">%bootstrap-d-def;
+<!ENTITY % bootstrap-d-def PUBLIC "-//DITA Bootstrap//ELEMENTS DITA Bootstrap Domain//EN" "bootstrapDomain.mod">%bootstrap-d-def;
 <!ENTITY % bootstrapCustom-d-def PUBLIC "//Example//ELEMENTS DITA Bootstrap Custom Domain//EN" "bootstrapCustomDomain.mod">%bootstrapCustom-d-def;
 
 <!ENTITY % hi-d-def PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Highlight Domain//EN" "highlightDomain.mod">%hi-d-def;
